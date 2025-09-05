@@ -9,9 +9,9 @@
 
 ## 🔍 프로젝트 필요성
 - **사교육비 4년 연속 역대 최대치 갱신**
-  - 교육부와 통계청의 「초중고사교육비조사」에 따르면 초중고교생의 사교육비가 4년 연속 역대 최대치를 갱신하였습니다.
+  - 교육부와 통계청의 「초중고사교육비조사」에 따르면 초중고교생의 사교육비가 4년 연속 역대 최대치를 갱신
 - **교육부의 자기주도학습센터 사업 추진 계획**
-  - 사교육 현황에 대한 대책으로 교육부는 학교 밖 학습 여건이 열악한 지역 등의 중고등학생을 대상으로 스스로 공부할 수 있는 공간인 자기주도학습센터를 2025년에 50개 내외로 선정하겠다고 공고하였습니다.
+  - 사교육 현황에 대한 대책으로 학교 밖 학습 여건이 열악한 지역 등의 중고등학생을 대상으로 스스로 공부할 수 있는 공간인 자기주도학습센터를 2025년에 50개 내외로 선정하겠다는 교육부의 공고
 
 ## 🛠 사용 기술 및 라이브러리
 - **데이터 수집 및 분석**: Excel, Python
@@ -37,6 +37,8 @@
 
 ## 📊 활용 데이터
 
+| 데이터명 | 제공 기관 |
+|----------|----------|
 | 학원교습소정보 | 교육부, 경기도교육청 | 
 | 학교기본정보(초)_경기도교육청 | 한국교육학술정보원 | 
 | 학교기본정보(중)_경기도교육청 | 한국교육학술정보원 |
@@ -72,7 +74,7 @@
 
 ### **2️⃣ PCA (주성분 분석)**
 - **주성분 수 선택**: 변수 간 중복 정보를 줄여 주요한 설명력을 유지하고 노이즈를 줄여 보다 뚜렷한 군집 구조를 파악하기 위해서 84.42%의 누적 설명력을 유지하는 5개의 주성분(5차원)까지 차원을 축소
-  <Figure size 1200x600 with 1 Axes><img width="1189" height="590" alt="image" src="https://github.com/user-attachments/assets/338464f2-815a-4a70-a978-137547e0fe69" />
+  <Figure size 800x400 with 1 Axes><img width="1189" height="590" alt="image" src="https://github.com/user-attachments/assets/338464f2-815a-4a70-a978-137547e0fe69" />
 
 - **군집 수 선택**
   - Inertia (by Elbow Method): 5차원의 경우 k=5, 인근 차원의 경우 k=5,6
@@ -80,7 +82,7 @@
   <img width="791" height="296" alt="image" src="https://github.com/user-attachments/assets/723e66d4-8f05-4958-8930-babe5039e2fc" />
 
 ### **3️⃣ K-means 군집화** 
-<Figure size 1200x800 with 1 Axes><img width="1189" height="789" alt="image" src="https://github.com/user-attachments/assets/a9879d04-dd0d-49f5-8a8d-c85d2dcaf8df" />
+<Figure size 800x400 with 1 Axes><img width="1189" height="789" alt="image" src="https://github.com/user-attachments/assets/a9879d04-dd0d-49f5-8a8d-c85d2dcaf8df" />
 
 ### **4️⃣ SHAP 분석**
 - 비지도 학습 환경을 XGBoost를 활용하여 지도학습 환경으로 변환한 후, 각 클러스터링 레이블에 대한 SHAP 적용
