@@ -24,14 +24,15 @@
 ```
 ├── data/                         # 데이터 저장 폴더
 │   ├── after/                    # 전처리된 데이터
-│   │   ├── p_median_d_variable.csv       # 거리 변수 데이터
-│   │   ├── real_p_median_h_variable.csv  # 수요 변수 데이터
-│   │   ├── 영통구 공공시설_레알최종본.csv  # 최종 후보지 데이터
+│   │   ├── data_optimization_candidate.xlsx   # 후보지 데이터
+│   │   ├── data_optimization_demand.xlsx      # 수요지 데이터
+│   │   ├── data_optimization_distance.xlsx    # 후보지와 수요지 간 거리 데이터
+│   │   ├── hj_df2.csv                         # 시군구별 데이터
+│   │   ├── 학교통합정보_cleaned.csv            # 학교 데이터
 ├── modeling/                      
-│   ├── MCLP.ipynb                 # MCLP 모델 구현 코드
-│   ├── pmedian.ipynb              # P-Median 모델 구현 코드
-├── preprocessing/               
-│   ├── 데이터_전처리_oveall.ipynb  # 데이터 전처리 코드
+│   ├── cluster_shap.ipynb                     # 클러스터링 및 SHAP 분석 코드
+│   ├── optimization_updated.ipynb             # 입지 최적화 구현 코드
+│   ├── str.py                                 # 의사결정 대시보드 구현 코드
 ├── README.md                      # 프로젝트 설명
 ```
 
