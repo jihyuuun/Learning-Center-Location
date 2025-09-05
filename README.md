@@ -74,7 +74,7 @@
 
 ### **2️⃣ PCA (주성분 분석)**
 - **주성분 수 선택**: 변수 간 중복 정보를 줄여 주요한 설명력을 유지하고 노이즈를 줄여 보다 뚜렷한 군집 구조를 파악하기 위해서 84.42%의 누적 설명력을 유지하는 5개의 주성분(5차원)까지 차원을 축소
-  <Figure size 800x400 with 1 Axes><img width="1189" height="590" alt="image" src="https://github.com/user-attachments/assets/338464f2-815a-4a70-a978-137547e0fe69" />
+  <Figure size 800x400 with 1 Axes><img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/338464f2-815a-4a70-a978-137547e0fe69" />
 
 - **군집 수 선택**
   - Inertia (by Elbow Method): 5차원의 경우 k=5, 인근 차원의 경우 k=5,6
@@ -82,7 +82,7 @@
   <img width="791" height="296" alt="image" src="https://github.com/user-attachments/assets/723e66d4-8f05-4958-8930-babe5039e2fc" />
 
 ### **3️⃣ K-means 군집화** 
-<Figure size 800x400 with 1 Axes><img width="1189" height="789" alt="image" src="https://github.com/user-attachments/assets/a9879d04-dd0d-49f5-8a8d-c85d2dcaf8df" />
+<Figure size 800x400 with 1 Axes><img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/a9879d04-dd0d-49f5-8a8d-c85d2dcaf8df" />
 
 ### **4️⃣ SHAP 분석**
 - 비지도 학습 환경을 XGBoost를 활용하여 지도학습 환경으로 변환한 후, 각 클러스터링 레이블에 대한 SHAP 적용
